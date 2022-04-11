@@ -73,6 +73,8 @@ table{
 th,td{
     text-align: center;
     padding:5px 5px 5px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
 }
@@ -90,12 +92,12 @@ th,td{
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:900px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:25%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.subnavigation{font-size:1.33em; white-space:nowrap; width:25%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+td.navigation{font-size:1.67em; white-space:nowrap; width:25%; text-align:center; vertical-align:middle;}
+td.subnavigation{font-size:1.33em; white-space:nowrap; width:25%; text-align:center; vertical-align:middle;}
 
 /* Organizer and Sponsor Images */
 table.sponsors{width:900px; margin-bottom: 0px; margin-top: 0px; table-layout: fixed;}
-td.sponsor{white-space:nowrap; width:25%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px; overflow: hidden;}
+td.sponsor{white-space:nowrap; width:25%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
     
 /* The Table on the Program Page */
